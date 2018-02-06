@@ -79,7 +79,7 @@
     <string-array name="E_Y1_S2_material">
         <item>choose the material...</item>
         <item>تاريخ غرب اوربا</item>
-        <item>عماره-civilization</item>
+        <item>حضاره-civilization</item>
         <item>لغه عربيه</item>
         <item>من الادب الانجليزى</item>
     </string-array>
@@ -96,7 +96,7 @@
         <item>choose the material...</item>
         <item>essay writing</item>
         <item>novel</item>
-        <item>عماره-civilization</item>
+        <item>حضاره-civilization</item>
     </string-array>
 
     <string-array name="E_Y3_S1_material">
