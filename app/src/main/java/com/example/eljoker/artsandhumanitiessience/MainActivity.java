@@ -502,7 +502,8 @@ public class MainActivity extends AppCompatActivity {
                 } else if (dep == "S" & ye == 2 & sem == 1 & material.getSelectedItem().toString().equals("امتحانات ترم اول")) {
 
                     ur = "https://accounts.google.com/signin/v2/sl/pwd?hl=ar&passive=true&continue=https%3A%2F%2Fdrive.google.com%2Fdrive%2Ffolders%2F1nwZxToYr7QGDcatbX0aqrKrh7P2HgWrW&service=writely&flowName=GlifWebSignIn&flowEntry=ServiceLogin";
-                Intent intent = new Intent(MainActivity.this, materials.class);
+                }
+                    Intent intent = new Intent(MainActivity.this, materials.class);
                 intent.putExtra("url", ur);
                 startActivity(intent);
 
@@ -512,7 +513,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-            }
+            
 
             @Override
             public void onNothingSelected(AdapterView<?> parent) {
